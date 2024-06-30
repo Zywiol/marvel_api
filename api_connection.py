@@ -6,8 +6,8 @@ developer = 'https://developer.marvel.com/docs#!/public/getCreatorCollection_get
 
 #how to protect public and private api key
 
-public_api_key = '4363a224317e30c88fd759d35897932e'
-private_api_key = 'ab0dfb0d45b2ebe47fcfeb32e9ee6b9bcd75ae81'
+public_api_key = 'x'
+private_api_key = 'x'
 ts = '1'
 string_full = ts + private_api_key + public_api_key
 
