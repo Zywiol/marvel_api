@@ -9,10 +9,10 @@ __pycache__/
 *.pyc
 
 # Ignoruj katalogi wirtualnych środowisk
-venv/
+virtual/
 env/
-.venv/
-.venv
+.virtual/
+.virtual
 
 # Ignoruj pliki logów
 *.log
