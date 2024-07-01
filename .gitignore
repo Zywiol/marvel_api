@@ -20,3 +20,4 @@ env/
 # Ignoruj pliki tymczasowe
 *.tmp
 *.swp
+.venv/
