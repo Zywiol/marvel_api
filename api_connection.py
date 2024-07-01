@@ -1,18 +1,19 @@
 import requests as r
 import hashlib
 import pandas as pd
+import dotenv
+import os
 
-print('start')
+
 
 developer = 'https://developer.marvel.com/docs#!/public/getCreatorCollection_get_0'
 
-#TO DO
-#how to protect public and private api key
-#git igoner add
+dotenv.load_dotenv()
+
+public_api_key = os.getenv('PUBLIC_API_KEY')
+private_api_key = os.getenv('PRIVATE_API_KEY')
 
 
-public_api_key = 'x'
-private_api_key = 'x'
 ts = '1'
 string_full = ts + private_api_key + public_api_key
 
