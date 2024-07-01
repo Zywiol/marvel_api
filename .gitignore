@@ -11,6 +11,8 @@ __pycache__/
 # Ignoruj katalogi wirtualnych środowisk
 venv/
 env/
+.venv/
+.venv
 
 # Ignoruj pliki logów
 *.log
