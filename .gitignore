@@ -1,0 +1,20 @@
+# Ignoruj plik z kluczami API
+.env
+
+# Ignoruj inne pliki konfiguracyjne, jeśli takie masz
+config.py
+
+# Ignoruj standardowe pliki, które nie powinny być w repozytorium
+__pycache__/
+*.pyc
+
+# Ignoruj katalogi wirtualnych środowisk
+venv/
+env/
+
+# Ignoruj pliki logów
+*.log
+
+# Ignoruj pliki tymczasowe
+*.tmp
+*.swp
